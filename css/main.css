@@ -24,7 +24,7 @@ h1,h2,h3,h4,h5,p {
 
 .container {
     max-width: 1200px;
-    margin: 0 15px;
+    margin: 0 auto;
     padding: 0 15px;
 }
 
@@ -37,17 +37,13 @@ button {
     height: 53px;
     font-size: 33px;
     margin-left: 39.5%;
-    margin-top: 49px;
-
+    padding-bottom: 5px;
+    margin-top: 57px;
 }
 
 .big-boss {
     background-color: #014E56;
     height: 150vh; 
-}
-
-.big-boss:hover {
-    background-color: #004047;
 }
 
 .mini-boss h2 {
@@ -68,16 +64,16 @@ button {
 
 .boxes {
     width: 296px;
-    height: 256px;
+    height: 259px;
     background-color: #012F34;
     margin: 5px;
 }
 
 .box-1 img {
     max-width: 86px;
-    margin-left: 105px;
     margin-top: 23px;
     justify-content: center;
+    margin-left: 99px;
 }
 
 .box-1 {
@@ -97,19 +93,56 @@ button {
     margin-top: 37px;
 }
 
-.all img:nth-child(4) {
-    margin-left: 0;
+.all :nth-child(4) {
+    margin-top: 38px;
 }
 
-.all img:nth-child(3) {
-    margin-right: 15px;
-}
 
-button svg {
-    margin-bottom: 3px;
+
+.box-1:hover .boll {
+    display: none;
+
 }
-.btn {
+ 
+.box-1:hover button {
     background-color: #79C8C7;
     border: 1px solid #79C8C7;
-    margin-top: 42px;
+    transform: rotate(45deg);
+    padding-left: 10px;
+    padding-bottom: 5px;
+    transition: 0.1s ease;
 }
+
+.box-1:hover .aller {
+    display: inline-block;
+}  
+
+
+.aller {
+    display: none;
+}
+
+.aller h5 {
+    margin-top: 20px;
+    font-size: 21px;
+}
+
+.aller p {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 16px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+
+.opo svg {
+    margin-top: 28px;
+    margin-left: 20px;
+}
+
+.opo {
+    margin-left: 90px;
+}
+
+
